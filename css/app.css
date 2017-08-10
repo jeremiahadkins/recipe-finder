@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -7382,6 +7383,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 *::after {
   box-sizing: border-box; }
 
+body {
+  font-family: 'Work Sans', sans-serif; }
+
 img {
   max-width: 100%; }
 
@@ -7392,10 +7396,11 @@ img {
   z-index: 1; }
 
 .recipe-result {
-  border-bottom: solid 2px #efefef;
+  border-bottom: solid 1px #efefef;
   margin: 0 0 20px;
   padding: 20px 0; }
   .recipe-result:last-of-type {
     border-bottom: 0;
     margin-bottom: 0; }
+
 /*# sourceMappingURL=app.css.map */
