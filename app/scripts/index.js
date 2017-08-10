@@ -5,9 +5,9 @@ let $searchBox = $('.recipe-search');
 let url = 'https://recipepuppyproxy.herokuapp.com/api/';
 
 // default data with blank search query
-// fetch(url + '?q=').then(function(response) {
-//   return response.json();
-// }).then(start);
+fetch(url + '?q=').then(function(response) {
+  return response.json();
+}).then(start);
 
 $('.search-btn').on('click', function(event) {
   event.preventDefault();
