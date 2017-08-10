@@ -7391,4 +7391,12 @@ img {
   top: -1px;
   z-index: 1; }
 
+.recipe-result {
+  border-bottom: solid 2px #efefef;
+  margin: 0 0 20px;
+  padding: 20px 0; }
+  .recipe-result:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=app.css.map */
