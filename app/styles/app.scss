@@ -1,0 +1,24 @@
+
+// Bootstrap Variables
+// $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+// @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+}
